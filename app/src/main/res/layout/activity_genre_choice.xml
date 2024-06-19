@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".genreChoice"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/categori"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+
+            android:src="@drawable/btn1"/>
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/btn2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/btn3"/>
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/btn4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/btn5"/>
+        <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/btn6"/>
+
+    </LinearLayout>
+
+</LinearLayout>
