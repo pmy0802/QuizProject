@@ -24,25 +24,25 @@ class genreChoice : AppCompatActivity() {
 
         var btn3 = findViewById<ImageButton>(R.id.btn3)
         btn3.setOnClickListener {
-            var intent = Intent(applicationContext, proverb::class.java)
+            var intent = Intent(applicationContext, spelling::class.java)
             startActivity(intent)
         }
 
         var btn4 = findViewById<ImageButton>(R.id.btn4)
         btn4.setOnClickListener {
-            var intent = Intent(applicationContext, proverb::class.java)
+            var intent = Intent(applicationContext, commonsense::class.java)
             startActivity(intent)
         }
 
         var btn5 = findViewById<ImageButton>(R.id.btn5)
         btn5.setOnClickListener {
-            var intent = Intent(applicationContext, proverb::class.java)
+            var intent = Intent(applicationContext, nonsense::class.java)
             startActivity(intent)
         }
 
         var btn6 = findViewById<ImageButton>(R.id.btn6)
         btn6.setOnClickListener {
-            var intent = Intent(applicationContext, proverb::class.java)
+            var intent = Intent(applicationContext, neologism::class.java)
             startActivity(intent)
         }
     }

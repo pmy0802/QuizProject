@@ -87,7 +87,7 @@ object QuestionData4 {
         )
         val q10 = Question(
             1,
-            "백현은 어떤 그룹 멤버일까?",
+            "/@drawable/btn1",
             "BTS",
             "EXO",
             "빅뱅",

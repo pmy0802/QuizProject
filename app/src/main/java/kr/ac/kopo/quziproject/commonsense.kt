@@ -24,7 +24,7 @@ class commonsense : AppCompatActivity(),View.OnClickListener {
     @SuppressLint("StringFormatInvalid")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_proverb)
+        setContentView(R.layout.activity_commonsense)
 
         // 질문 리스트 가져오기
         questionList = QuestionData4.getQuestion()
