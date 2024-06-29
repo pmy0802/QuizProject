@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         btnStart.setOnClickListener {
             var intent = Intent(applicationContext, genreChoice::class.java)
             startActivity(intent)
+            finish()
         }
 
         var btnEnd = findViewById<ImageButton>(R.id.btnEnd)

@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="10dp"
+    android:background="@color/white"
     tools:context=".celebrity">
     <TextView
         android:id="@+id/question_text"
@@ -84,7 +85,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#ABACAE"
         android:text="@string/submit"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#ABACAE"
+        android:text="홈으로"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"/>
 

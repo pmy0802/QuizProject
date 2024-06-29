@@ -14,7 +14,7 @@ object QuestionData2 {
             1
         )
         val q2 = Question(
-            1,
+            2,
             "에스파 멤버가 아닌 사람은?",
             "카리나",
             "닝닝",
@@ -23,7 +23,7 @@ object QuestionData2 {
             4
         )
         val q3 = Question(
-            1,
+            3,
             "뉴진스의 막내는?",
             "혜인",
             "해린",
@@ -32,7 +32,7 @@ object QuestionData2 {
             1
         )
         val q4 = Question(
-            1,
+            4,
             "아이브 멤버 중 한국 멤버가 아닌 사람은?",
             "레이",
             "유진",
@@ -41,7 +41,7 @@ object QuestionData2 {
             1
         )
         val q5 = Question(
-            1,
+            5,
             "눈물의 여왕 여자 주인공은?",
             "박소담",
             "송혜교",
@@ -50,7 +50,7 @@ object QuestionData2 {
             3
         )
         val q6 = Question(
-            1,
+            6,
             "유재석의 생일은?",
             "8월14일",
             "8월15일",
@@ -59,7 +59,7 @@ object QuestionData2 {
             1
         )
         val q7 = Question(
-            1,
+            7,
             "놀면 뭐하니? 멤버가 아닌 사람은?",
             "하하",
             "유재석",
@@ -68,7 +68,7 @@ object QuestionData2 {
             4
         )
         val q8 = Question(
-            1,
+            8,
             "24년에 나온 드라마가 아닌 것은?",
             "눈물의여왕",
             "선재업고튀어",
@@ -77,7 +77,7 @@ object QuestionData2 {
             3
         )
         val q9 = Question(
-            1,
+            9,
             "하정우가 출연하지 않은 영화는?",
             "비공식작전",
             "백두산",
@@ -86,7 +86,7 @@ object QuestionData2 {
             4
         )
         val q10 = Question(
-            1,
+            10,
             "백현은 어떤 그룹 멤버일까?",
             "BTS",
             "EXO",

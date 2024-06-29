@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 
 class ResultActivity : AppCompatActivity() {
@@ -18,16 +19,20 @@ class ResultActivity : AppCompatActivity() {
         scoreText.text = getString(R.string.progress_text_format, score, totalSize)
 
         // 다시하기 버튼
-        val resetBtn = findViewById<Button>(R.id.reset_btn)
+        val resetBtn = findViewById<ImageButton>(R.id.reset_btn)
         resetBtn.setOnClickListener {
-            val intent = Intent(this@ResultActivity, genreChoice::class.java)
+            var intent = Intent(applicationContext, genreChoice::class.java)
             startActivity(intent)
+            finish()
         }
 
-        val homeBtn = findViewById<Button>(R.id.home_btn)
+
+        // 홈버튼
+        val homeBtn = findViewById<ImageButton>(R.id.home_btn)
         homeBtn.setOnClickListener {
             var intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

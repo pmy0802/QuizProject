@@ -1,100 +1,69 @@
-package kr.ac.kopo.quziproject
+import kr.ac.kopo.quziproject.Question2
 
 object QuestionData4 {
-    fun getQuestion(): ArrayList<Question> {
-        val queList: ArrayList<Question> = arrayListOf()
+    fun getQuestion2(): ArrayList<Question2> {
+        val queList: ArrayList<Question2> = arrayListOf()
 
-        val q1 = Question(
+        val q1 = Question2(
             1,
-            "세븐틴 멤버 수는?",
-            "13",
-            "17",
-            "15",
-            "10",
-            1
+            "세계에서 가장 긴 강은?",
+            "나일강",
+            "아프리카"
         )
-        val q2 = Question(
-            1,
-            "에스파 멤버가 아닌 사람은?",
-            "카리나",
-            "닝닝",
-            "윈터",
-            "설윤",
-            4
+        val q2 = Question2(
+            2,
+            "인구가 가장 많은 대륙은?",
+            "아시아",
+            "한국, 일본, 인도 등이 속함"
         )
-        val q3 = Question(
-            1,
-            "뉴진스의 막내는?",
-            "혜인",
-            "해린",
-            "다니엘",
-            "하니",
-            1
+        val q3 = Question2(
+            3,
+            "후백제를 세운 사람은?",
+            "견훤",
+            "ㄱㅎ"
         )
-        val q4 = Question(
-            1,
-            "아이브 멤버 중 한국 멤버가 아닌 사람은?",
-            "레이",
-            "유진",
-            "리즈",
-            "이서",
-            1
+        val q4 = Question2(
+            4,
+            "조선시대 왕은 총 몇명이었을까?(숫자만 입력)",
+            "27",
+            "20명 보다 많음"
         )
-        val q5 = Question(
-            1,
-            "눈물의 여왕 여자 주인공은?",
-            "박소담",
-            "송혜교",
-            "김지원",
-            "김태희",
-            3
+        val q5 = Question2(
+            5,
+            "발해를 세운 사람은?",
+            "대조영",
+            "드라마 제목으로도 있음"
         )
-        val q6 = Question(
-            1,
-            "유재석의 생일은?",
-            "8월14일",
-            "8월15일",
-            "8월20일",
-            "8월26일",
-            1
+        val q6 = Question2(
+            6,
+            "우리나라에서 가장 긴 강은?",
+            "압록강",
+            "ㅇㄹ강"
         )
-        val q7 = Question(
-            1,
-            "놀면 뭐하니? 멤버가 아닌 사람은?",
-            "하하",
-            "유재석",
-            "이미주",
-            "김종국",
-            4
+        val q7 = Question2(
+            7,
+            "우리나라 국보 1호는?",
+            "숭례문",
+            "남대문이라고도 함(ㅅㄹㅁ)"
         )
-        val q8 = Question(
-            1,
-            "24년에 나온 드라마가 아닌 것은?",
-            "눈물의여왕",
-            "선재업고튀어",
-            "킹더랜드",
-            "피라미드게임",
-            3
+        val q8 = Question2(
+            8,
+            "세계에서 가장 넓은 나라는?",
+            "러시아",
+            "연방제 국가"
         )
-        val q9 = Question(
-            1,
-            "하정우가 출연하지 않은 영화는?",
-            "비공식작전",
-            "백두산",
-            "신과함께",
-            "비상선언",
-            4
+        val q9 = Question2(
+            9,
+            "마이크로 소프트 창업자는?",
+            "빌게이츠",
+            "ㅂㄱㅇㅊ"
         )
-        val q10 = Question(
-            1,
-            "/@drawable/btn1",
-            "BTS",
-            "EXO",
-            "빅뱅",
-            "샤이니",
-            2
+        val q10 = Question2(
+            10,
+            "12지신 띠 중 첫번째는?",
+            "쥐",
+            "1글자"
         )
-
 
         queList.add(q1)
         queList.add(q2)

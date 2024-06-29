@@ -14,8 +14,12 @@
         android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:src="@drawable/quiz"
+            android:layout_height="350dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/main"
             android:layout_gravity="center"/>
         <ImageButton
             android:id="@+id/btnStart"
@@ -23,14 +27,14 @@
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:layout_gravity="center"
-            android:src="@drawable/quiz2"/>
+            android:src="@drawable/quiz1"/>
         <ImageButton
             android:id="@+id/btnEnd"
             android:layout_width="250dp"
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:layout_gravity="center"
-            android:src="@drawable/quiz1"/>
+            android:src="@drawable/quiz2"/>
     </LinearLayout>
 
 

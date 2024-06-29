@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="holo_purple">#83299C</color>
-    <color name="holo_purple_ligh">#DD8AF4</color>
+    <color name="holo_purple">#3B63F4</color>
+    <color name="holo_purple_ligh">#8BBCF8</color>
     <color name="holo_red_ligh">#FF4A4A</color>
 </resources>
