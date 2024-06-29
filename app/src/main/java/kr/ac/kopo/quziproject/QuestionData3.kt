@@ -41,7 +41,7 @@ object QuestionData3 {
         )
         val q6 = Question3(
             6,
-            "눈에 띄는 색깔이다.",
+            "눈에 () 색깔이다.",
             "띠는",
             "띄는",
             2
